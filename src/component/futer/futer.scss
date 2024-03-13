@@ -1,0 +1,41 @@
+.futer{
+max-width: 100%;
+height: 250px;
+margin: 0 auto;
+background-color: rgb(63, 62, 62);
+.menu-futer{
+    padding-top: 60px;
+    align-items: center;
+    .logo{
+        text-align: center;
+    }
+}
+.nav-futer{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+   display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+}
+.icon{
+    max-width: 400px;
+    margin: 0  auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    .icons{
+        font-size: 34px;
+        color: #faf6f6;
+    }
+    .icons:hover{
+     color: #3acc15;
+    }
+}
+@media (max-width: 768px) {
+    .footer {
+     max-width: 400px;
+    }
+  
+}

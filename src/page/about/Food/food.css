@@ -1,0 +1,66 @@
+.food {
+  max-width: 100%;
+}
+.food h1 {
+  text-align: center;
+}
+.food .content-food {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.food .content {
+  flex: 1 1 30%;
+  width: 200px;
+  margin-right: 20px;
+  height: 120px;
+  display: flex;
+}
+.food .fruct {
+  width: 60px;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.food p {
+  padding: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 750px) {
+  .content-food {
+    display: block;
+  }
+  .content-food .content {
+    flex: 1 1 45%;
+    max-width: 550px;
+    height: 230px;
+  }
+  .content-food p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .fruct {
+    width: 80px;
+    font-size: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .content-food {
+    display: block;
+  }
+  .content-food .content {
+    flex: 1 1 100%;
+    max-width: 550px;
+    height: 250px;
+  }
+  .content-food p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .fruct {
+    width: 100px;
+    font-size: 100px;
+  }
+}/*# sourceMappingURL=food.css.map */

@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.heder-content{
+  max-width: 100%;
+  height: 35rem;
+}
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+img {
+  float: left;
+ max-width: 100%;
+}
+p {
+  color: #7e7b7b;
+  font-size: 20px;
+  padding: 25px;
+}
+.gereli{
+max-width: 900px;
+margin: 5px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+ gap: 10px;
+}
+h1 {
+  padding-top: 20px;
+  font-size: 25px;
+  padding-bottom: 10px;
+  color: #000;
+  margin: 0 auto;
+}
+.offerc {
+margin-top: -100px;
+  align-items: center;
+   max-width: 100%;
+  margin: 0 auto;
+}
+.offerc .text{
+   display: block;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.offerc .text p{
+    font-size: 20px;
+    color: #b4b3b3;
+  text-align: center;
+}
+.offerc .text h1{
+    color: #0c0c0c;
+  text-align: center;
+}
+
+
+@media (max-width:972px){
+  .heder-content{
+    max-width: 850px;
+  }
+  .content{
+    max-width: 750px;
+  }
+  .gereli{
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+ gap: 1rem;
+  }
+  .offerc{
+    height: 870px;
+  }
+}
+
+@media (max-width:768px){
+  .heder-content{
+    max-width:500px;
+  }
+  h1{
+    text-align: center;
+  }
+  .content{
+    flex-direction: column;
+    max-width: 450px;
+    translate: (3%);
+  } 
+ .gereli{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+ gap: 1rem;
+transform: translate(5%);
+ }
+ .offerc{
+  height: 1613px;
+}
+ .text p{
+  max-width: 400px;
+ }
+}

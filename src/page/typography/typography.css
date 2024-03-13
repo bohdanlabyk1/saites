@@ -1,0 +1,33 @@
+.typo {
+  max-width: 1000px;
+  margin: 70px auto;
+}
+.typo h1, .typo h2, .typo h3, .typo h4, .typo h5, .typo h6 {
+  padding: 5px 30px;
+}
+.typo p {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.text {
+  max-width: 500px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.text li {
+  padding: 3px;
+}
+
+@media (max-width: 1200px) {
+  .typo {
+    max-width: 1100px;
+  }
+}
+@media (max-width: 972px) {
+  .typo {
+    max-width: 850px;
+  }
+}/*# sourceMappingURL=typography.css.map */

@@ -1,0 +1,21 @@
+.main-content{
+    max-width: 850px;
+     height: 230px;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     color: #c2bdbd;
+ }
+ .window{
+     height: 100%;
+     width: 100%;
+     overflow: hidden;
+ }
+ .all-item-container{
+     height: 100%;
+     display: flex;
+ }
+ .arrov{
+     cursor: pointer;
+   
+ }

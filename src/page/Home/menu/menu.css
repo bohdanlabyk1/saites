@@ -1,0 +1,90 @@
+.heder {
+  background-color: #b3acac;
+  padding: 20px 0;
+}
+
+.heder h5 {
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.tab-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tab-heder {
+  background-color: #000;
+  padding: 35px;
+  color: #ebe1e1;
+  overflow: hidden;
+}
+.tab-heder ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.tab-heder li {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.tab {
+  color: antiquewhite;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.show {
+  display: none;
+}
+
+.show-content {
+  display: block;
+}
+
+.tab-text {
+  padding: 15px 30px;
+  max-width: 850px;
+  background-color: #fdfdfd;
+}
+
+.tab-text p {
+  color: rgb(43, 216, 43);
+  font-size: 25px;
+}
+
+.tab-text h1:hover {
+  color: #7cd874;
+  cursor: pointer;
+}
+
+.tab-text .p1 {
+  font-size: 18px;
+  color: #c4c2c2;
+}
+
+@media (max-width: 1200px) {
+  .tab-text {
+    max-width: 1100px;
+  }
+  .tab-heder {
+    max-width: 1100px;
+  }
+}
+@media (max-width: 972px) {
+  .tab-text {
+    max-width: 850px;
+  }
+  .tab-heder li {
+    width: 100%;
+  }
+  .tab-section {
+    max-width: 450px;
+    translate: 1%;
+  }
+}/*# sourceMappingURL=menu.css.map */
